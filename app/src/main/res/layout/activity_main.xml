@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:paddingRight="@dimen/dimen_16sp"
+        android:paddingLeft="@dimen/dimen_16sp"
+        android:background="@drawable/ic_background"
+        tools:context=".MainActivity">
+
+    <TextView
+            android:id="@+id/tvLoginTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="@dimen/text_24sp"
+            android:textColor="@color/colorWhite"
+            android:layout_marginBottom="@dimen/dimen_16sp"
+            android:text="@string/text_login"/>
+
+    <EditText
+            android:id="@+id/etUsername"
+            android:layout_below="@id/tvLoginTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_14sp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/colorWhite"
+            android:paddingTop="@dimen/dimens_12dp"
+            android:paddingBottom="@dimen/dimens_12dp"
+            android:paddingLeft="@dimen/dimens_12dp"
+            android:paddingRight="@dimen/dimens_12dp"
+            android:background="@drawable/cv_edittext_login"
+            android:hint="@string/text_username"
+            android:textColorHint="@color/colorWhite"
+            tools:text="hallo"/>
+
+    <EditText
+            android:id="@+id/etPassword"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etUsername"
+            android:paddingTop="@dimen/dimens_12dp"
+            android:paddingBottom="@dimen/dimens_12dp"
+            android:paddingLeft="@dimen/dimens_12dp"
+            android:paddingRight="@dimen/dimens_12dp"
+            android:layout_width="match_parent"
+            android:textSize="@dimen/text_14sp"
+            android:inputType="textPassword"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/cv_edittext_login"
+            android:layout_marginBottom="@dimen/dimen_16sp"
+            android:hint="@string/text_password"
+            android:textColorHint="@color/colorWhite"
+            tools:text="12345678"/>
+
+    <Button
+            android:id="@+id/btnLogin"
+            android:background="@drawable/cv_button_login"
+            android:layout_below="@id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorOrange"
+            android:text="@string/text_login"/>
+
+</RelativeLayout>

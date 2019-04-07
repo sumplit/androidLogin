@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="text_login">Login</string>
+    <string name="text_username">Username</string>
+    <string name="text_password">Password</string>
+
+    <string name="text_error_password">Password tidak boleh kosong</string>
+    <string name="text_error_username">Username tidak boleh kosong</string>
+    <string name="text_error_login">Username dan Password tidak sama</string>
+    <string name="text_success_login">Login Sukses</string>
+</resources>
